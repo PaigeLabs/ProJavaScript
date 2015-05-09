@@ -1,0 +1,47 @@
+<!doctype html>
+<html class="no-js" lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Professional JavaScript</title>
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+		<link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+		<h1>Professional JavaScript</h1>
+		<section class="demoButtons">
+			<button class="btn btn-default" onclick="main.dualLog(strictDemo)">Strict Mode</button>	
+			<button class="btn btn-default" onclick="main.dualLog(iifeDemo)">IIFE</button>	
+			<button class="btn btn-default" onclick="main.dualLog(inheritanceDemo)">Inheritance</button>	
+			<button class="btn btn-default" id="thisButton" onclick="main.dualLog(thisDemo)">this</button>	
+			<button class="btn btn-default" onclick="main.dualLog(bindDemo)">Bind</button>	
+			<button class="btn btn-default" onclick="main.dualLog(closureDemo)">Closure</button>	
+			<button class="btn btn-default" onclick="main.dualLog(prototypeDemo)">Prototype</button>	
+			<button class="btn btn-default" onclick="main.dualLog(moduleDemo)">Module</button>	
+			<button class="btn btn-default" onclick="main.dualLog(revealingModuleDemo)">Revealing Module</button>	
+			<button class="btn btn-default" onclick="main.dualLog(objectDemo)">Object</button>	
+		</section>
+		<section>
+			<textarea id="output"></textarea>		
+			<textarea id="codeOutput" class="javascript"></textarea>	
+		</section>
+		<section>
+			<button class="btn btn-default" onclick="main.clear()">clear log</button>
+		</section>
+		<script src="js/00-main.js"></script>
+    <script src="js/01-strict.js"></script>
+    <script src="js/02-iife.js"></script>
+    <script src="js/03-inheritance.js"></script>
+    <script src="js/04-this.js"></script>
+    <script src="js/05-bind.js"></script>
+    <script src="js/06-closure.js"></script>
+    <script src="js/07-prototype.js"></script>
+    <script src="js/08-module.js"></script>
+    <script src="js/09-revealingModule.js"></script>
+    <script src="js/010-object.js"></script>
+  </body>
+</html>
